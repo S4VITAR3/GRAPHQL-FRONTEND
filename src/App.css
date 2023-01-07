@@ -1,5 +1,32 @@
 .App {
   text-align: center;
+  
+}
+
+body{
+  background-color: wheat;
+}
+
+#tabla1{
+  border: 2px black;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+.titulo{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#tabla1 tr th{
+  color: white;
+  background-color: rgb(42, 42, 145);
+}
+
+#tabla1 tr td{
+  background-color: rgb(189, 188, 188);
 }
 
 .App-logo {
@@ -35,4 +62,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.editar{
+  margin-left: 5px;
+}
+
+.btnedit{
+  border: none;
+  background: none;
+  transition: 0.2s;
+}
+
+.btnedit:hover{
+  transform: scale(1.1);
+  color: #000000;
+}
+
+.eliminar{
+  margin-left: 5px;
+  transition: 0.2s;
+}
+
+.eliminar:hover{
+  transform: scale(1.1);
+  color: #000000;
 }
